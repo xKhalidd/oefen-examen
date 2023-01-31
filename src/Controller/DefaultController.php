@@ -24,7 +24,7 @@ class DefaultController extends AbstractController
         if ($this->security->isGranted('IS_AUTHENTICATED_REMEMBERED')) {
             return $this->render('default/index.html.twig', [
                 'controller_name' => 'Kali oefen examen',
-                'name' => 'Khalid Achahbar',
+                'name' => 'Khalid ',
             ]);
         }
         return $this->redirectToRoute('app_login');
